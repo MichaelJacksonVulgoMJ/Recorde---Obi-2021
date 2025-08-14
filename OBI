@@ -1,0 +1,10 @@
+nome = 'banana'
+letra = input()
+indices=[]
+'''se a letra estiver no nome, informar posiçao, se nao, informar -1'''
+if letra in nome:
+    qua=nome.count(letra)
+    for i in range(qua-1):
+        indices.append(int(nome.index(i)))
+else:
+    print('Sua letra nao se encontra na palavra')
