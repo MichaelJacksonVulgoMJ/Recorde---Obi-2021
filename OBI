@@ -1,3 +1,4 @@
+Banana
 nome = 'banana'
 letra = input()
 indices=[]
@@ -8,3 +9,41 @@ if letra in nome:
         indices.append(int(nome.index(i)))
 else:
     print('Sua letra nao se encontra na palavra')
+
+
+
+OBI Placar
+gols1=list(map(int,input().split()))
+gols2=list(map(int,input().split()))
+qdg=gols1.pop(0)+gols2.pop(0)
+tempos= (gols1 + gols2)
+tempos.sort
+placar=[0,0]
+for i in range(qdg):
+    if tempos[i] in gols1:
+        placar[1] += 1
+        print(*placar)
+    else:
+        placar[0] +=1
+        print(*placar)
+
+OBI Araras
+araras, gaiolas = map(int,input().split())
+for i in range(0, gaiolas, 5):
+    araras-=1
+    if araras ==0:
+        break
+print('N'if araras!=0 else 'S')
+
+
+
+
+
+
+
+
+Codigo que eu mandei:
+'''if(gaiolas-araras % 4 ==0):
+    print('S')
+else:
+    print('N')'''
